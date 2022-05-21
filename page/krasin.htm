@@ -1,0 +1,139 @@
+
+<!DOCTYPE html>
+
+<html lang="ru">
+<head>
+<title>W3.CSS Template</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-black.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body id="myPage">
+
+<!-- Sidebar on click -->
+
+
+<!-- Navbar -->
+<div class="w3-top">
+ <div class="w3-bar w3-theme-d2 w3-left-align">
+  <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-hover-white w3-theme-d2" href="javascript:void(0);" onclick="openNav()"><i class="fa fa-bars"></i></a>
+  <a href="../index.htm" class="w3-bar-item w3-button w3-teal"><i class="fa fa-home w3-margin-right"></i>Главная страница</a>
+  <a href="port.htm" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Порт Мурманск</a>
+  <a href="pogoda.htm" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Погода</a>
+  <a href="novosti.htm" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Новости</a>
+    <div class="w3-dropdown-hover w3-hide-small">
+    <button class="w3-button" title="Notifications">Мои корабли<i class="fa fa-caret-down"></i></button>     
+    <div class="w3-dropdown-content w3-card-4 w3-bar-block">
+      <a href="VASILYDINKOV.htm" class="w3-bar-item w3-button">Танкер"VASILY DINKOV"</a>
+      <a href="CargoVesselsNORILSKIYNICKEL.htm" class="w3-bar-item w3-button">Сухогруз "NORILSKIY NICKEL"</a>
+      <a href="krasin.htm" class="w3-bar-item w3-button">Ледокол"KRASIN"</a>
+    </div>
+  </div>
+  <a href="#" class="w3-bar-item w3-button w3-hide-small w3-right w3-hover-teal" title="Search"><i class="fa fa-search"></i></a>
+ </div>
+
+  <!-- Navbar on small screens -->
+  <div id="navDemo" class="w3-bar-block w3-theme-d2 w3-hide w3-hide-large w3-hide-medium">
+    <a href="#team" class="w3-bar-item w3-button">Team</a>
+    <a href="#work" class="w3-bar-item w3-button">Work</a>
+    <a href="#pricing" class="w3-bar-item w3-button">Price</a>
+    <a href="#contact" class="w3-bar-item w3-button">Contact</a>
+    <a href="#" class="w3-bar-item w3-button">Search</a>
+  </div>
+</div>
+
+<!-- Image Header -->
+<div class="w3-display-container w3-animate-opacity">
+  <img src="../pic/krasin2.jpg" alt="boat" style="width:100%;min-height:350px;max-height:600px;">
+  
+</div>
+
+<div class="w3-container w3-padding-64 w3-center" id="team">
+<h2>Krasin</h2>
+<script type="text/javascript">
+  var width="100%";var height="400";
+  var mmsi=273143900;
+</script><script type="text/javascript" src="https://www.vesselfinder.com/aismap.js"></script>
+ 
+<table align="center">
+
+<tr>
+<td><h3>ИНФОРМАЦИЯ О СУДНЕ</h3></ td> <td><h3>ОСНОВНЫЕ РАЗМЕРЫ</h3> </ td> </ tr>
+<tr><td><p>ТИП СУДНА:	ледокол класса KM(*) LL2[2] <br />
+ТИП ВЫПОЛНЕННОЙ РАБОТЫ: Эскизный и тендерный проект; <br />Ледовые модельные испытания;Натуральные испытания <br />
+ГОД: 2006<br />
+ЗАКАЗЧИК: «Судоимпорт» <br />
+ИСПОЛНИТЕЛЬ:«Wartsila»,Финляндия<br />
+ВЛАДЕЛЕЦ:Дальневосточное морское пароходство<br /> </p> </td>
+<td><p>
+ДЛИНА: 129,81 м<br />
+ШИРИНА: 25,97 м<br /> 
+ОСАДКА: 11.0 м<br /> 
+
+СИЛОВАЯ УСТАНОВКА:30.4МВт<br />
+ЛЕДОВЫЙ КЛАСС:KM(*) LL2[2]
+<br /> <br /> <br /></p> </td></tr>
+ </table> 
+
+<!-- Work Row -->
+<div class="w3-row-padding w3-padding-64 w3-theme-l1" id="work">
+
+<div class="">
+<h2 align="center"> Происшествия</h2>
+<h5>САНКТ-ПЕТЕРБУРГ, 21 мая. . Спасатели потушили горящий мусор на верхней палубе ледокола-музея "Красин" на набережной Лейтенанта Шмидта в центре Санкт-Петербурга. Об этом ТАСС в понедельник сообщили в пресс-службе ГУ МЧС по Петербургу.
+
+"В 14:37 мск поступила заявка. На корме ледокола, на верхней палубе на площади 20 метров горела ветошь, мусор. В 14:50 мск пожар локализован", - сказали в пресс-службе управления. На данный момент пожар потушили.
+</h5>
+</div>
+
+
+
+
+</div>
+
+
+
+<!-- Image of location/map -->
+
+
+<!-- Footer -->
+<footer class="w3-container w3-padding-32 w3-theme-d1 w3-center">
+  <a class="w3-button w3-large w3-teal" href="javascript:void(0)" title="Facebook"><i class="fa fa-facebook"></i></a>
+  <p>Made by Ilya Nesteryuk</p>
+
+  <div style="position:relative;bottom:100px;z-index:1;" class="w3-tooltip w3-right">
+    <span class="w3-text w3-padding w3-teal w3-hide-small">наверх</span>   
+    <a class="w3-button w3-theme" href="#myPage"><span class="w3-xlarge">
+    <i class="fa fa-chevron-circle-up"></i></span></a>
+  </div>
+</footer>
+
+<script>
+// Script for side navigation
+function w3_open() {
+  var x = document.getElementById("mySidebar");
+  x.style.width = "300px";
+  x.style.paddingTop = "10%";
+  x.style.display = "block";
+}
+
+// Close side navigation
+function w3_close() {
+  document.getElementById("mySidebar").style.display = "none";
+}
+
+// Used to toggle the menu on smaller screens when clicking on the menu button
+function openNav() {
+  var x = document.getElementById("navDemo");
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else { 
+    x.className = x.className.replace(" w3-show", "");
+  }
+}
+</script>
+
+</body>
+</html>

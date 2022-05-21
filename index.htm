@@ -1,0 +1,201 @@
+
+<!DOCTYPE html>
+
+<html land="ru">
+<head>
+<title>W3.CSS Template</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-black.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body id="myPage">
+
+<!-- Sidebar on click -->
+<nav class="w3-sidebar w3-bar-block w3-white w3-card w3-animate-left w3-xxlarge" style="display:none;z-index:2" id="mySidebar">
+  <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-display-topright w3-text-teal">Закрыть
+    <i class="fa fa-remove"></i>
+  </a>
+  <a href="page/VASILYDINKOV.htm" class="w3-bar-item w3-button" style="background-image: url('pic/VASILY_DINKOV5.jpg');background-size: cover;" >Танкер"VASILY DINKOV"</a>
+  <a href="page/CargoVesselsNORILSKIYNICKEL.htm" class="w3-bar-item w3-button" style="background-image: url('pic/NORILSKIY_NICKEL5.jpg');background-size: 100% 100%; background-repeat: no-repeat;">Сухогруз "NORILSKIY NICKEL"</a>
+  <a href="page/krasin.htm" class="w3-bar-item w3-button"style="background-image: url('pic/krasin6.jpg');background-size: 100% 100%;">Ледокол<br>"KRASIN"</a>
+  <a href="page/pogoda.htm" class="w3-bar-item w3-button"style="background-image: url('pic/pogoda.jpg');background-size: contain; background-repeat: no-repeat;align:right;">Погода</a>
+  <a href="page/novosti.htm" class="w3-bar-item w3-button"style="background-image: url('pic/novosti.jpg');background-size: 100% 100%; background-repeat: no-repeat;">Новости</a>
+</nav>
+
+<!-- Navbar -->
+<div class="w3-top">
+ <div class="w3-bar w3-theme-d2 w3-left-align">
+  <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-hover-white w3-theme-d2" href="javascript:void(0);" onclick="openNav()"><i class="fa fa-bars"></i></a>
+  <a href="index.htm" class="w3-bar-item w3-button w3-teal"><i class="fa fa-home w3-margin-right"></i>Главная страница</a>
+  <a href="page/port.htm" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Порт Мурманск</a>
+  <a href="page/pogoda.htm" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Погода</a>
+  <a href="page/novosti.htm" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Новости</a>
+    <div class="w3-dropdown-hover w3-hide-small">
+    <button class="w3-button" title="Notifications">Мои корабли<i class="fa fa-caret-down"></i></button>     
+    <div class="w3-dropdown-content w3-card-4 w3-bar-block">
+      <a href="page/VASILYDINKOV.htm" class="w3-bar-item w3-button">Танкер"VASILY DINKOV"</a>
+      <a href="page/CargoVesselsNORILSKIYNICKEL.htm" class="w3-bar-item w3-button">Сухогруз "NORILSKIY NICKEL"</a>
+      <a href="page/krasin.htm" class="w3-bar-item w3-button">Ледокол"KRASIN"</a>
+    </div>
+  </div>
+	
+  <!--<a href="#" class="w3-bar-item w3-button w3-hide-small w3-right w3-hover-teal" title="Search"><i class="fa fa-search"></i></a> -->
+ </div>
+
+  <!-- Navbar on small screens -->
+  <div id="navDemo" class="w3-bar-block w3-theme-d2 w3-hide w3-hide-large w3-hide-medium">
+    <a href="#team" class="w3-bar-item w3-button">team</a>
+    <a href="#work" class="w3-bar-item w3-button">work</a>
+    <a href="#pricing" class="w3-bar-item w3-button">pricing</a>
+    <a href="#contact" class="w3-bar-item w3-button">contact</a>
+    <a href="#" class="w3-bar-item w3-button">Search</a>
+  </div>
+</div>
+
+<!-- Image Header -->
+<div class="w3-display-container w3-animate-opacity">
+  <img src="pic/myrmansk.jpg" alt="boat" style="width:100%;min-height:350px;max-height:600px;">
+ 
+</div>
+
+
+
+
+
+
+
+
+<!-- Container -->
+<div class="w3-container" style="position:relative">
+  <a onclick="w3_open()" class="w3-button w3-xlarge w3-circle w3-teal"
+  style="position:absolute;top:-28px;right:24px">+</a>
+</div>
+
+<!-- Pricing Row -->
+<style>
+.video 
+{width: 50%;
+min-height: 150px;
+
+float: right;
+
+}
+.karta{
+width: 50%;
+min-height: 150px;
+
+float: left;
+
+}
+</style>
+
+<div class="w3-row-padding w3-center w3-padding-64" id="pricing" width>
+    <h1><strong>Порт Мурманск</strong></h1>
+    <h3><strong><p>Мурманский морской торговый порт — морской порт, расположенный на восточном берегу Кольского залива Баренцева моря, крупнейшее транспортное предприятие города Мурманска. Порт занимает четвёртое место по России по объёму перерабатываемых грузов и второе по величине на северо-западе Российской Федерации.</p></strong></h3><br>
+    <div class="video">
+<iframe width="700" height="330" src="https://www.youtube.com/embed/Cwcjn-OZVaA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+
+    
+
+    <div class="karta">
+<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d11019.256726491602!2d33.06070112359409!3d68.97741734489988!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e1!3m2!1sru!2sru!4v1650316609293!5m2!1sru!2sru" width="600" height="330" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+</div>
+
+<!-- Contact Container -->
+
+
+<!-- Work Row -->
+<div class="w3-row-padding w3-padding-64 w3-theme-l1" id="work" >
+
+<div class="w3-quarter" >
+<div class="w3-card w3-white" align="left">
+  <img src="pic/sevmor.jpg" alt="Snow" style="width:100%" height="216" >
+  <div class="w3-container">
+  <h3>Северный морской путь </h3>
+  
+ 
+  </div>
+  </div>
+</div>
+
+
+ <div class="w3-quarter" >
+<div class="w3-card w3-white" align="left">
+  <img src="pic/krasin.jpg" alt="Snow" style="width:100%">
+  <div class="w3-container">
+  <h3>Ледокол Krasin</h3>
+  <h4><a href="krasin.htm" class="w3-bar-item w3-button" > Узнать больше</a></h4>
+ 
+  </div>
+  </div>
+</div>
+
+
+<div class="w3-quarter">
+<div class="w3-card w3-white">
+  <img src="pic/NORILSKIY_NICKEL.jpg" alt="Lights" style="width:100%" height="160">
+  <div class="w3-container">
+  <h3> Сухогруз NORILSKIY NICKEL</h3>
+  <h4> <a href="CargoVesselsNORILSKIYNICKEL.htm" class="w3-bar-item w3-button" > Узнать больше </a></h4>
+ 
+  </div>
+  </div>
+</div>
+
+
+<div class="w3-quarter">
+<div class="w3-card w3-white">
+  <img src="pic/VASILY_DINKOV.jpg" alt="Mountains" style="width:100%"height="160">
+  <div class="w3-container">
+  <h3> Танкер VASILY DINKOV</h3>
+  <h4> <a href="VASILYDINKOV.htm" class="w3-bar-item w3-button" > Узнать больше</a> </h4>
+  
+  </div>
+  </div>
+</div>
+</div>
+
+<!-- Footer -->
+<footer class="w3-container w3-padding-32 w3-theme-d1 w3-center">
+  
+  <a class="w3-button w3-large w3-teal w3-hide-small" href="javascript:void(0)" title="Linkedin"><i class="fa fa-linkedin"></i></a>
+  <p>Made by Ilya Nesteryuk</p>
+
+  <div style="position:relative;bottom:100px;z-index:1;" class="w3-tooltip w3-right">
+    <span class="w3-text w3-padding w3-teal w3-hide-small">наверх</span>   
+    <a class="w3-button w3-theme" href="#myPage"><span class="w3-xlarge">
+    <i class="fa fa-chevron-circle-up"></i></span></a>
+  </div>
+</footer>
+
+<script>
+// Script for side navigation
+function w3_open() {
+  var x = document.getElementById("mySidebar");
+  x.style.width = "300px";
+  x.style.paddingTop = "10%";
+  x.style.display = "block";
+}
+
+// Close side navigation
+function w3_close() {
+  document.getElementById("mySidebar").style.display = "none";
+}
+
+// Used to toggle the menu on smaller screens when clicking on the menu button
+function openNav() {
+  var x = document.getElementById("navDemo");
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else { 
+    x.className = x.className.replace(" w3-show", "");
+  }
+}
+</script>
+
+</body>
+</html>
